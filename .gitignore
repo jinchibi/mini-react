@@ -1,0 +1,45 @@
+# Ignore node_modules directory at the root of the repository
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore development environment files
+.env
+
+# Ignore build output directory
+/build/
+
+# Ignore dependency directories
+# For npm:
+npm-debug.log
+*.pnp
+.pnp.js
+
+# For Yarn:
+yarn-error.log
+.pnp/
+# Yarn 2
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
