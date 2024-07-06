@@ -18,7 +18,11 @@ importers:
 
   packages/react-reconciler: {}
 
-  packages/scheduler: {}
+  packages/scheduler:
+    dependencies:
+      shared:
+        specifier: workspace:*
+        version: link:../shared
 
   packages/shared: {}
 
